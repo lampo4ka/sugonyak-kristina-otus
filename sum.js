@@ -1,12 +1,14 @@
 var sum = function add(x) {
 		var count = 0;
-		function function(x) {
+		function f(x) {
 				if (x === undefined) {
 						return count;
 				} else {
 						count = count + x;
-						return function;
+						return f;
 				}
 		}
-return function(x);
-}
+return f(x);
+};
+
+console.log(sum(1)(2)(11)());
